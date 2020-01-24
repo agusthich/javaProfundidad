@@ -1,0 +1,36 @@
+//Java a Profundidad. JEE, MVC, JPA, RegEX, Generics y más
+
+int a,b;
+a=5;
+b=6;
+c[a + b ]+=2;
+c[11] += 2 ;    //esta expresion suma 2 al valor que esta en el indice 11
+
+int[] a= new int[6]  es lo mismo que int []a={0,0,0,0,0,0}; = seria el valor por defaul 0
+boolean []b = new boolean[3]; = valor por defectpo seria false & false 
+object[]d= new objetc[5]=valor por defecto es ( null & null)
+
+
+
+ejemplo:
+
+public class Arreglo{
+	
+	   public static void main(String[]args){
+	      int[]i = new int[10];
+	      System.out.println(i[3]);
+	   }
+}
+
+
+*arreglos multidimensionales =arreglos con 2 dimensiones
+    por conviosn identifica columna y la otra identifica fila.
+    -cada elemento de un arreglo puede ser asu  de un objeto o bien una referencia
+
+          int [][]arregloMultidimensional={inicializar de arreglo multidimencional};
+          int[][]arregloMultidimensional={{1,2},{3,4}}; 
+          //para acceder
+          arregloMultidimensional[0][0];//igual a 1
+          arregloMultidimensional[0][1];//igual a 2
+
+          int[]c = {1,2}; 
